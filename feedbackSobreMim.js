@@ -6,7 +6,7 @@ async function redesSociaisFavoritasMinhaEscola() {
     const dadosLocais = JSON.parse(dadosLocaisString)
     processarDados(dadosLocais)
   } else {
-    const url = 'https://script.google.com/macros/s/AKfycbzxvCu8tfUMwKEvAYTCCw2-x8oN_W_4-M3LLM5dS3QqtnKRzaCsAG4UBxLwrlawroLc/exec'
+    const url = https://script.google.com/macros/s/AKfycbwHhaHzJduAmX3rgsFvTRUYh8Jx6wO9Ur2IbR3dI0T5-gt5s0ggiNZO8KlyVn6F2lbW/exec
     const res = await fetch(url)
     const dados = await res.json()
     localStorage.setItem('respostaRedesSociais', JSON.stringify(dados))
